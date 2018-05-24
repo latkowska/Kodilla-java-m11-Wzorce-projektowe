@@ -10,7 +10,7 @@ public final class TaskFactory {
     public final Task makeTask(final String taskClass) {
         switch (taskClass) {
             case SHOPPINGTASK:
-                return new ShoppingTask("The shopping task", "Bułki", 3.0);
+                return new ShoppingTask("The shopping task", "apple", 3.0);
             case DRIVINGTASK:
                 return new DrivingTask("The driving task", "New York", "plain");
             case PAINTINGTASK:

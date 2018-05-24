@@ -6,8 +6,6 @@ import org.junit.Test;
 
 public class LoggerTestSuite {
 
-    private static Logger logger;
-
     @Test
     public void testLog() {
         Logger.getInstance().log("Test metody log().");

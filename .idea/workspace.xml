@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2728fec-eb71-47e7-bcf0-c6ab312f6ae5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/ShapeFactoryTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/patterns/singleton/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/patterns/singleton/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kodilla/patterns/singleton/LoggerTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kodilla/patterns/singleton/LoggerTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,6 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PatternsRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/PatternsRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskFactoryTestSuite.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskFactoryTestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="-357">
+              <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,13 +63,15 @@
       <file leaf-file-name="ShoppingTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="459">
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
               <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,13 +80,27 @@
       <file leaf-file-name="DrivingTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="e#379#380#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggerTestSuite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,23 +109,25 @@
       <file leaf-file-name="PaintingTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaskFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -424,7 +445,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/PatternsRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/SettingsFileEngineTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/singleton/SettingsFileEngine.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/singleton/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/com/kodilla/patterns/factory/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/com/kodilla/patterns/factory/Circle.java" />
@@ -434,11 +454,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/ShapeFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" />
       </list>
     </option>
   </component>
@@ -555,6 +576,15 @@
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -683,6 +713,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.factory.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.factory.tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite" />
+      <option name="METHOD_NAME" value="testFactoryShoppingTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -726,10 +779,12 @@
       <item itemvalue="JUnit.LoggerTestSuite" />
       <item itemvalue="JUnit.ShapeFactoryTestSuite" />
       <item itemvalue="JUnit.TaskFactoryTestSuite" />
+      <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryShoppingTask" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TaskFactoryTestSuite" />
+        <item itemvalue="JUnit.TaskFactoryTestSuite.testFactoryShoppingTask" />
         <item itemvalue="JUnit.ShapeFactoryTestSuite" />
         <item itemvalue="JUnit.LoggerTestSuite" />
         <item itemvalue="JUnit.SettingsFileEngineTestSuite" />
@@ -748,44 +803,44 @@
       <updated>1527063213485</updated>
       <workItem from="1527063217687" duration="3518000" />
       <workItem from="1527158512574" duration="1468000" />
-      <workItem from="1527160015723" duration="8449000" />
+      <workItem from="1527160015723" duration="12503000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SettingsFileEngineTestSuite - 2018.05.23 at 10h 28m 26s.xml">
-      <configuration name="SettingsFileEngineTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 08m 54s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettingsFileEngineTestSuite - 2018.05.23 at 10h 57m 54s.xml">
-      <configuration name="SettingsFileEngineTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 12m 56s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SettingsFileEngineTestSuite - 2018.05.24 at 13h 23m 04s.xml">
-      <configuration name="SettingsFileEngineTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 17m 36s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTestSuite - 2018.05.24 at 13h 23m 50s.xml">
-      <configuration name="LoggerTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 18m 07s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTestSuite - 2018.05.24 at 13h 24m 41s.xml">
-      <configuration name="LoggerTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 18m 32s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTestSuite - 2018.05.24 at 13h 26m 24s.xml">
-      <configuration name="LoggerTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 19m 03s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTestSuite - 2018.05.24 at 13h 29m 24s.xml">
-      <configuration name="LoggerTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 19m 48s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTestSuite - 2018.05.24 at 13h 30m 22s.xml">
-      <configuration name="LoggerTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 21m 24s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2018.05.24 at 14h 45m 07s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 21m 49s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskFactoryTestSuite - 2018.05.24 at 20h 04m 09s.xml">
-      <configuration name="TaskFactoryTestSuite" configurationId="JUnit" />
+    <history-entry file="TaskFactoryTestSuite_testFactoryShoppingTask - 2018.05.24 at 21h 22m 46s.xml">
+      <configuration name="TaskFactoryTestSuite.testFactoryShoppingTask" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13435000" />
+    <option name="totallyTimeSpent" value="17489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -942,18 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/SettingsFileEngineTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -972,17 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/PatternsRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-107">
@@ -1066,55 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1122,10 +1098,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/PatternsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/singleton/LoggerTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="204">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

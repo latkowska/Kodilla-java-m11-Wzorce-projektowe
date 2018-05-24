@@ -27,7 +27,6 @@ public class DrivingTask implements Task{
 
     @Override
     public boolean isTaskExecuted() {
-        if(where + " " + using == "New York plain");
-            return true;
+        return (where + " " + using).equals("New York plain");
     }
 }
