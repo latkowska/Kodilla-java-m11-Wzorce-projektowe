@@ -1,14 +1,17 @@
 package com.kodilla.patterns.singleton;
 
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class LoggerTestSuite {
 
-    @Test
-    public void testLog() {
-        Logger.getInstance().log("Test metody log().");
+    @BeforeClass
+    public static void printLogs() {
+        Logger.getInstance().log("Test nr 1 dla metody log().");
+        Logger.getInstance().log("Test nr 2 dla metody log().");
+        Logger.getInstance().log("Test nr 3 dla metody log().");
     }
 
     @Test
@@ -18,7 +21,7 @@ public class LoggerTestSuite {
         String getLastLog = Logger.getInstance().getLastLog();
         System.out.println("Wiadomość z ostatniego loga: " + getLastLog);
         //Then
-        Assert.assertEquals("Test metody log().", getLastLog);
+        Assert.assertEquals("Test nr 3 dla metody log().", getLastLog);
 
     }
 }
